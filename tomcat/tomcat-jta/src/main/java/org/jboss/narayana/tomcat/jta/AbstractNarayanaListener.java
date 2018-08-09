@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import javax.servlet.ServletContextEvent;
-
 import com.arjuna.ats.arjuna.common.CoreEnvironmentBeanException;
 import com.arjuna.ats.arjuna.common.arjPropertyManager;
 import com.arjuna.ats.arjuna.common.recoveryPropertyManager;
@@ -24,9 +22,9 @@ import com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule;
 import com.arjuna.ats.jdbc.TransactionalDriver;
 import com.arjuna.ats.jta.common.jtaPropertyManager;
 
-public abstract class AbstractNaraynaListener {
+public abstract class AbstractNarayanaListener {
 
-    private static final Logger LOGGER = Logger.getLogger(AbstractNaraynaListener.class.getSimpleName());
+    private static final Logger LOGGER = Logger.getLogger(AbstractNarayanaListener.class.getSimpleName());
 
     private static final String DEFAULT_NODE_IDENTIFIER = "1";
 

@@ -32,12 +32,12 @@ import javax.servlet.annotation.WebListener;
  * @author <a href="mailto:gytis@redhat.com">Gytis Trikleris</a>
  */
 @WebListener
-public class NarayanaJtaServletContextListener extends AbstractNaraynaListener implements ServletContextListener {
+public class NarayanaJtaServletContextListener extends AbstractNarayanaListener implements ServletContextListener {
 
     /**
      * Initialize and start Narayana JTA services.
      *
-     * @see AbstractNaraynaListener#initialize()
+     * @see AbstractNarayanaListener#initialize()
      */
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
@@ -47,7 +47,7 @@ public class NarayanaJtaServletContextListener extends AbstractNaraynaListener i
     /**
      * Stop Narayana JTA services.
      *
-     * @see AbstractNaraynaListener#disable()
+     * @see AbstractNarayanaListener#disable()
      */
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
