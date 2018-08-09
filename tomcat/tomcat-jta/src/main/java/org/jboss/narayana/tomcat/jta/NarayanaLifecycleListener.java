@@ -7,9 +7,6 @@ import org.apache.catalina.Lifecycle;
 import org.apache.catalina.LifecycleEvent;
 import org.apache.catalina.LifecycleListener;
 
-
-// implementation inspired from
-
 public class NarayanaLifecycleListener implements LifecycleListener {
 
     private static Logger LOG = Logger.getLogger(NarayanaLifecycleListener.class.getName());
